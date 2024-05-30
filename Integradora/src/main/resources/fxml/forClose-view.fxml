@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="560.0" prefWidth="1000.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="560.0" stroke="BLACK" strokeType="INSIDE" width="1000.0" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

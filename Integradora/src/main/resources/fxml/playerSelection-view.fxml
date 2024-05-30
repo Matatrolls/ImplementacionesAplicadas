@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.integradora.PlayerSelectionView">
+   <children>
+      <Pane prefHeight="560.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="560.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../menu.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="150.0" fitWidth="185.0" layoutX="32.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../BackGroundChoice.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="185.0" layoutX="239.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../BackGroundChoice.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="105.0" layoutX="86.0" layoutY="289.0" onMouseClicked="#ClickWhite" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../WhiteWavingHand.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="289.0" onMouseClicked="#ClickBlack" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../BlackWavingHand.gif" />
+               </image>
+            </ImageView>
+            <Label layoutX="65.0" layoutY="405.0" text="White BomberMan">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="272.0" layoutY="405.0" text="Black BomberMan">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</VBox>

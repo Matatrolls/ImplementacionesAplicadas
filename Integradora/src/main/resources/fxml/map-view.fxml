@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.integradora.MapGame">
+   <children>
+      <Pane prefHeight="560.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="560.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../map.png" />
+               </image></ImageView>
+            <ImageView fitHeight="560.0" fitWidth="445.0" layoutX="560.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../BackGroundChoice.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="TextLabel" alignment="TOP_LEFT" layoutX="584.0" layoutY="78.0" prefHeight="444.0" prefWidth="396.0" style="-fx-background-color: black;" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="395.0" layoutY="463.0" text="Goal">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="lvl1" layoutX="508.0" layoutY="97.0" mnemonicParsing="false" onAction="#lvl1" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="lvl2" layoutX="504.0" layoutY="184.0" mnemonicParsing="false" onAction="#lvl2" prefHeight="33.0" prefWidth="44.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="lvl3" layoutX="140.0" layoutY="184.0" mnemonicParsing="false" onAction="#lvl3" prefHeight="33.0" prefWidth="51.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="lvl5" layoutX="504.0" layoutY="259.0" mnemonicParsing="false" onAction="#lvl5" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="lvl4" layoutX="140.0" layoutY="259.0" mnemonicParsing="false" onAction="#lvl4" prefHeight="42.0" prefWidth="51.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="lvl6" layoutX="504.0" layoutY="335.0" mnemonicParsing="false" onAction="#lvl6" prefHeight="42.0" prefWidth="51.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="lvl7" layoutX="147.0" layoutY="344.0" mnemonicParsing="false" onAction="#lvl7" prefHeight="33.0" prefWidth="44.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="lvl8" layoutX="263.0" layoutY="419.0" mnemonicParsing="false" onAction="#lvl8" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="lvl9" layoutX="384.0" layoutY="420.0" mnemonicParsing="false" onAction="#lvl9" prefHeight="42.0" prefWidth="51.0" style="-fx-background-color: transparent;" />
+            <Label layoutX="645.0" layoutY="46.0" text="Shortest Route to Goal">
+               <font>
+                  <Font name="Arial Black" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="shortRoute" layoutX="750.0" layoutY="127.0" mnemonicParsing="false" onAction="#ShortRoute" style="-fx-background-color: white;" text="Click me!" />
+            <TextField fx:id="textInput" layoutX="677.0" layoutY="85.0" prefHeight="25.0" prefWidth="210.0" promptText="Shortest Route From lvl number?" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
